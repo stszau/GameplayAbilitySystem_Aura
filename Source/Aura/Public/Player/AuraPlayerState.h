@@ -23,7 +23,6 @@ public:
 	AAuraPlayerState();
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 	UAttributeSet* GetAttributeSet() const { return AttributeSet; }
-	UAbilitySystemComponent::SetReplicationMode(EGameplayEffectReplicationMode::Mixed
 
 protected:
 
